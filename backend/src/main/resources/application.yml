@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: devops-dashboard
+
+app:
+  github:
+    token: ${GITHUB_TOKEN:}
+    owner: ${GITHUB_OWNER:facebook}
+    repo: ${GITHUB_REPO:react}
+
+server:
+  port: 8081
